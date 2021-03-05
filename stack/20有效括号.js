@@ -11,26 +11,27 @@
  * @param {string} s
  * @return {boolean}
  */
-var isValid = function (s) {
-  const stack = []
-  const stringArray = s.split("")
-  const length = stringArray.length
+let isValid = function (s) {
   const table = {
     left: "([{",
     right: ")]}"
   }
-  for(let i = 0;i<length;i++){
-    if (table.left.indexOf(stringArray[i]) >= 0) {
-      stack.push(stringArray[i])
+
+  if (s.length % 2 === 1) return false
+
+  const stack = []
+  const length = s.length
+
+  for (let i = 0; i < length; i++) {
+    if (table.left.indexOf(s[i]) >= 0) {
+      stack.push(s[i])
     } else {
       const left = stack[stack.length - 1]
-      // 右边映射左边
-      const right = table.left[table.right.indexOf(stringArray[i])]
-      if(right === left){ //匹配成功
+      const right = table.left[table.right.indexOf(s[i])]
+      if (right === left) {
         stack.pop()
-      }else{
-        // 说明不是有效的结果
-        stack.push(x[i])
+      } else {
+        stack.push(s[i])
         break
       }
     }
