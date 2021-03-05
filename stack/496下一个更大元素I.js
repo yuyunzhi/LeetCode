@@ -14,7 +14,7 @@
  * @param {number[]} nums2
  * @return {number[]}
  */
-let nextGreaterElement = function (nums1, nums2) {
+let nextGreaterElement1 = function (nums1, nums2) {
   let hash = {}
   for (let i = 0; i < nums2.length; i++) {
     // nums2[i] // 1,3,4,2
@@ -35,5 +35,30 @@ let nextGreaterElement = function (nums1, nums2) {
 
   return result
 };
+
+let nextGreaterElement = function (nums1, nums2){
+  let hash = {}
+  let stack = []
+  for (let i = 0; i < nums2.length; i++) {
+    stack.push(nums2[i])
+    if(i !== nums2.length - 1){
+      for(let j = stack.length-1; j >=0 ; j--){
+         if( nums2[i+1] > stack[j] ){
+           hash[stack[j]] = nums2[i+1]
+           stack.pop()
+         }else{
+           break
+         }
+      }
+    }
+
+  }
+
+  let result = []
+  for(let i = 0 ;i<nums1.length; i++){
+    result.push(hash[nums1[i]] ? hash[nums1[i]] : -1)
+  }
+  return result
+}
 
 console.log(nextGreaterElement(nums1 = [4, 1, 2], nums2 = [1, 3, 4, 2]));
