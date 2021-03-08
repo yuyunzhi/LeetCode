@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da3748bc-938a-4915-9f7c-b5e51f613c02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/stack/1249移除无效的括号.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack/739每日温度.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +71,7 @@
       <workItem from="1552200080689" duration="334000" />
       <workItem from="1552232218487" duration="564000" />
       <workItem from="1614848754136" duration="4493000" />
-      <workItem from="1614909684032" duration="21022000" />
+      <workItem from="1614909684032" duration="22675000" />
     </task>
     <servers />
   </component>
@@ -92,6 +92,12 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="692" y="246" width="670" height="676" key="search.everywhere.popup" timestamp="1615193488442">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state x="692" y="246" width="670" height="676" key="search.everywhere.popup/0.23.1680.980@0.23.1680.980" timestamp="1615193488442" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
