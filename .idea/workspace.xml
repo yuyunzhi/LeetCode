@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da3748bc-938a-4915-9f7c-b5e51f613c02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/linkList/24两两交换链表节点.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkList/61旋转链表.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +72,7 @@
       <workItem from="1552232218487" duration="564000" />
       <workItem from="1614848754136" duration="4493000" />
       <workItem from="1614909684032" duration="24756000" />
-      <workItem from="1615196531302" duration="6365000" />
+      <workItem from="1615196531302" duration="9445000" />
     </task>
     <servers />
   </component>
@@ -112,6 +112,12 @@
           <url>file://$PROJECT_DIR$/stack/index.js</url>
           <line>4</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/linkList/24两两交换链表节点.js</url>
+          <line>32</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
