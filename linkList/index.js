@@ -9,13 +9,9 @@ c.next = d;
 // 遍历链表
 let p1 = a;
 let p2 = null
-while (p1) {
-
-  p2 = p1
-  p1 = p1.next;
-  console.log('p2',p2);
-  console.log('p1',p1);
-
+while (p) {
+  console.log(p.val);
+  p = p.next;
 }
 
 // 插入
