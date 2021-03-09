@@ -16,12 +16,13 @@ var rotateRight = function (head,k) {
   if (head === null || head.next === null) {
     return head;
   }
-  let cur = head, len = 0;
   // 1. 找到链表的长度，可以得出最终旋转的情况， k%len
   // ps: 当k===len时，链表相当于没有移动
-  while (cur !== null) {
-    len++;
-    cur = cur.next;
+  let len = 1 , p = head
+  while(head && p.next){
+    len++
+    p = p.next
+
   }
 
   let m = k % len;
