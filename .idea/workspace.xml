@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da3748bc-938a-4915-9f7c-b5e51f613c02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/linkList/19删除链表的倒数N个结点.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkList/82删除链表重复元素2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/linkList/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,7 @@
       <workItem from="1552232218487" duration="564000" />
       <workItem from="1614848754136" duration="4493000" />
       <workItem from="1614909684032" duration="24756000" />
-      <workItem from="1615196531302" duration="12420000" />
+      <workItem from="1615196531302" duration="14791000" />
     </task>
     <servers />
   </component>
@@ -96,6 +95,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="665" y="130" width="1015" height="687" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1615271782530">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state x="665" y="130" width="1015" height="687" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1680.980@0.23.1680.980" timestamp="1615271782530" />
     <state x="692" y="246" width="670" height="676" key="search.everywhere.popup" timestamp="1615193488442">
       <screen x="0" y="23" width="1680" height="980" />
     </state>
