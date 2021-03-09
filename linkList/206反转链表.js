@@ -18,4 +18,5 @@ var reverseList = function(head) {
     p2 = p1
     p1 = tmp
   }
+  return p2
 };
