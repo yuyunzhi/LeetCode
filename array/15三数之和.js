@@ -15,7 +15,7 @@ var threeSum = function(nums) {
     let hash = {}
     const twoSumTarget = 0 - nums[i]
     for(let j = i+1; j<nums.length ;j++){
-      containKey= twoSumTarget - nums[j]
+      let containKey= twoSumTarget - nums[j]
       if(hash[containKey]!=undefined){
         const arr = [nums[i],nums[j],nums[hash[containKey]]].sort((a,b)=>a-b)
         const arrToString = String(arr)
