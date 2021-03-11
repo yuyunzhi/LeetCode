@@ -9,7 +9,11 @@ const bt = {
         },
         right: {
             val: 5,
-            left: null,
+            left: {
+              val: 8,
+              left: null,
+              right: null,
+            },
             right: null,
         },
     },
