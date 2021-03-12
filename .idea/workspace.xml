@@ -21,8 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="da3748bc-938a-4915-9f7c-b5e51f613c02" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/bt.js" beforeDir="false" afterPath="$PROJECT_DIR$/tree/bt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/postorder.js" beforeDir="false" afterPath="$PROJECT_DIR$/tree/postorder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/94二叉树中序遍历.js" beforeDir="false" afterPath="$PROJECT_DIR$/tree/94二叉树中序遍历.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/inorder.js" beforeDir="false" afterPath="$PROJECT_DIR$/tree/inorder.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +82,7 @@
       <workItem from="1614848754136" duration="4493000" />
       <workItem from="1614909684032" duration="24756000" />
       <workItem from="1615196531302" duration="39166000" />
-      <workItem from="1615433932837" duration="14922000" />
+      <workItem from="1615433932837" duration="18694000" />
     </task>
     <servers />
   </component>
