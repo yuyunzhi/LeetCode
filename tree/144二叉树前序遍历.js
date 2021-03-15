@@ -49,10 +49,3 @@ const preorderTraversal = (root) =>{
     x(root)
     return result
 }
-
-
-
-
-
-
-
