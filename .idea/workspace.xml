@@ -20,9 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da3748bc-938a-4915-9f7c-b5e51f613c02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/graph/bfs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/dfs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/graph.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +80,7 @@
       <workItem from="1614848754136" duration="4493000" />
       <workItem from="1614909684032" duration="24756000" />
       <workItem from="1615196531302" duration="39166000" />
-      <workItem from="1615433932837" duration="37908000" />
+      <workItem from="1615433932837" duration="39920000" />
     </task>
     <servers />
   </component>
@@ -102,18 +99,15 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="WindowStateProjectService">
     <state x="665" y="130" width="1015" height="687" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1615271782530">
       <screen x="0" y="23" width="1680" height="980" />
     </state>
     <state x="665" y="130" width="1015" height="687" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1680.980@0.23.1680.980" timestamp="1615271782530" />
-    <state x="692" y="246" width="670" height="676" key="search.everywhere.popup" timestamp="1615778307250">
+    <state x="692" y="246" width="670" height="676" key="search.everywhere.popup" timestamp="1615864173074">
       <screen x="0" y="23" width="1680" height="980" />
     </state>
-    <state x="692" y="246" width="670" height="676" key="search.everywhere.popup/0.23.1680.980@0.23.1680.980" timestamp="1615778307250" />
+    <state x="692" y="246" width="670" height="676" key="search.everywhere.popup/0.23.1680.980@0.23.1680.980" timestamp="1615864173074" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -43,7 +43,7 @@ var isNumber = function (s) {
   }
 
   let state = 0
-  for (c of s.trim()) {
+  for (let c of s.trim()) {
     if (c >= '0' && c <= '9') {
       c = 'digit'
     } else if (c === ' ') {
