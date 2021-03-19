@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da3748bc-938a-4915-9f7c-b5e51f613c02" name="Default Changelist" comment="" />
+    <list default="true" id="da3748bc-938a-4915-9f7c-b5e51f613c02" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heap/692前K个高频单词.js" beforeDir="false" afterPath="$PROJECT_DIR$/heap/692前K个高频单词.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +85,7 @@
       <workItem from="1615196531302" duration="39166000" />
       <workItem from="1615433932837" duration="44756000" />
       <workItem from="1615960627168" duration="4936000" />
-      <workItem from="1616115154729" duration="7839000" />
+      <workItem from="1616115154729" duration="12217000" />
     </task>
     <servers />
   </component>
@@ -101,6 +105,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="298" y="141" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616132808814">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state x="298" y="141" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.980@0.23.1680.980" timestamp="1616132808814" />
     <state x="665" y="130" width="1015" height="687" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1615271782530">
       <screen x="0" y="23" width="1680" height="980" />
     </state>

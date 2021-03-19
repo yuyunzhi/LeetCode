@@ -1,106 +1,27 @@
-class MinHeap {
-  constructor() {
-    this.heap =  []
-  }
-
-  swap(i1, i2) {
-    const temp = this.heap[i1]
-    this.heap[i1] = this.heap[i2]
-    this.heap[i2] = temp
-  }
-
-  getParentIndex(i) {
-    return Math.floor((i - 1) / 2)
-  }
-
-  shiftUp(index) {
-    if (index === 0) return
-    const parentIndex = this.getParentIndex(index)
-    if (this.heap[index] && this.heap[parentIndex].val > this.heap[index].val) {
-      // 交换
-      this.swap(parentIndex, index)
-      this.shiftUp(parentIndex)
-    }
-  }
-
-  getLeftChildIndex(i) {
-    return i * 2 + 1
-  }
-
-  getRightChildIndex(i) {
-    return i * 2 + 2
-  }
-
-  shiftDown(index) {
-    const leftIndex = this.getLeftChildIndex(index)
-    const rightIndex = this.getRightChildIndex(index)
-    if(this.heap[leftIndex] && this.heap[leftIndex].val < this.heap[index].val){
-      this.swap(leftIndex,index)
-      this.shiftDown(leftIndex)
-    }
-    if(this.heap[rightIndex] && this.heap[rightIndex].val < this.heap[index].val){
-      this.swap(rightIndex,index)
-      this.shiftDown(rightIndex)
-    }
-  }
-
-  /**
-   * 插入堆并进行排序
-   * @param value
-   */
-  insert(value) {
-    this.heap.push(value)
-    this.shiftUp(this.heap.length - 1)
-  }
-  /*
-    弹出堆顶
-   */
-  pop() {
-    if(this.heap.length === 1) return this.heap.shift()
-    const top = this.heap[0]
-    // 这么做是不为了破坏堆结构，然后对对顶的元素进行下移
-    this.heap[0] = this.heap.pop()
-    this.shiftDown(0)
-    return top
-  }
-  /*
-    获取堆顶
-   */
-  peek(){
-    return this.heap[0]
-  }
-  /*
-    获取堆的长度
-   */
-  size(){
-    return this.heap.length
-  }
-}
-
 /**
- * @param {number[]} nums
- * @param {number} k
- * @return {number[]}
+ * @param {string} s
+ * @return {string}
  */
-var topKFrequent = function(nums, k) {
-
-  const map = new Map()
-  nums.forEach(n=>{
-    map.set(n,map.has(n)? map.get(n) + 1 : 1)
+var frequencySort = function(s) {
+  if(s.length === 0) return ""
+  let hasMap = new Map()
+  s.split("").forEach(w=>{
+    hasMap.set(w,hasMap.has(w)? hasMap.get(w) + 1 : 1)
   })
 
-  console.log(map)
-  const h = new MinHeap()
-  map.forEach((value,key)=>{
-    console.log(value,key)
-    h.insert({value,key})
-    if(h.size()>k){
-        h.pop()
+  let array = Array.from(hasMap).sort((a,b)=>a[1]-b[1])
+  let result =""
+  for(let i = array.length -1 ;i>= 0;i--){
+    const [key ,value ] = array[i]
+    if(value === 1) {
+      result = result + key
+    }else{
+      for(let j = 1 ; j<= value ; j++){
+        result = result + key
+      }
     }
-  })
+  }
+  return result
+};
 
-  return h.heap.map(i=>i.key)
-}
-
-
-console.log(topKFrequent(nums = [1,1,2,2,2,2,2,3,3,4,4,4,4,4,4,], k = 2));
+console.log(frequencySort("raaeaedere"));
