@@ -16,7 +16,7 @@ class MinHeap {
   shiftUp(index) {
     if (index === 0) return
     const parentIndex = this.getParentIndex(index)
-    if (this.heap[index] && this.heap[parentIndex].val > this.heap[index].val) {
+    if (this.heap[parentIndex] && this.heap[parentIndex].val > this.heap[index].val) {
       // 交换
       this.swap(parentIndex, index)
       this.shiftUp(parentIndex)
@@ -78,29 +78,32 @@ class MinHeap {
 }
 
 /**
- * @param {number[]} nums
- * @param {number} k
- * @return {number[]}
+ * Definition for singly-linked list.
+ * function ListNode(val, next) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.next = (next===undefined ? null : next)
+ * }
  */
-var topKFrequent = function(nums, k) {
+/**
+ * @param {ListNode[]} lists
+ * @return {ListNode}
+ */
+var mergeKLists = function(lists) {
+  if (!lists.length) return null
+  if (lists.length === 1) return lists[0]
+  let link = new ListNode(0)
+  let p = link
+  let h = new MinHeap()
 
-  const map = new Map()
-  nums.forEach(n=>{
-    map.set(n,map.has(n)? map.get(n) + 1 : 1)
+  lists.forEach(l=>{
+    l && h.insert(l)
   })
 
-  console.log(map)
-  const h = new MinHeap()
-  map.forEach((value,key)=>{
-    console.log(value,key)
-    h.insert({value,key})
-    if(h.size()>k){
-        h.pop()
-    }
-  })
-
-  return h.heap.map(i=>i.key)
-}
-
-
-console.log(topKFrequent(nums = [1,1,2,2,2,2,2,3,3,4,4,4,4,4,4,], k = 2));
+  while(h.size()){
+    const n = h.pop()
+    p.next = n
+    p = p.next
+    if(n.next) h.insert(n.next)
+  }
+  return link.next
+};

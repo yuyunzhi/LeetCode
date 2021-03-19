@@ -79,16 +79,18 @@ class MinHeap {
   }
 }
 
-export default MinHeap
+
 
 const h = new MinHeap()
-h.insert(8)
-h.insert(7)
-h.insert(5)
-h.insert(3)
 h.insert(2)
-h.insert(1)
-h.pop()
-h.size()
-h.peek()
+h.insert(4)
+h.insert(6)
+// h.insert(3)
+// h.insert(2)
+// h.insert(1)
+// h.pop()
+// h.size()
+// h.peek()
 console.log(h.getHeap());
+
+// export default MinHeap
