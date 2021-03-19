@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da3748bc-938a-4915-9f7c-b5e51f613c02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/array/1046最后一块石头重量.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/回溯法/46全排列.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/回溯法" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,6 +63,7 @@
       <recent name="$PROJECT_DIR$/array" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/回溯法" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -84,7 +85,7 @@
       <workItem from="1615196531302" duration="39166000" />
       <workItem from="1615433932837" duration="44756000" />
       <workItem from="1615960627168" duration="4936000" />
-      <workItem from="1616115154729" duration="13851000" />
+      <workItem from="1616115154729" duration="15516000" />
     </task>
     <servers />
   </component>
