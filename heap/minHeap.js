@@ -1,8 +1,7 @@
 // 大小为K的堆中插入元素的时间复杂度为O(logk)
 class MinHeap {
-  constructor(heap) {
-    console.log(heap);
-    this.heap = heap || []
+  constructor() {
+    this.heap =  []
   }
 
   getHeap() {
@@ -80,6 +79,7 @@ class MinHeap {
   }
 }
 
+export default MinHeap
 
 const h = new MinHeap()
 h.insert(8)
