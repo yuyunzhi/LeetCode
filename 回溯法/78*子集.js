@@ -12,7 +12,7 @@ let subset = (nums)=>{
       }
   }
 
-  for(let i = 0;i<nums.length;i++){
+  for(let i = 0;i<nums.length+1;i++){
     backtrack([],i,0)
   }
 
