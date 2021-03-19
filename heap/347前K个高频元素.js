@@ -96,7 +96,7 @@ var topKFrequent = function(nums, k) {
     console.log(value,key)
     h.insert({value,key})
     if(h.size()>k){
-        h.pop()
+      h.pop()
     }
   })
 
@@ -105,3 +105,4 @@ var topKFrequent = function(nums, k) {
 
 
 console.log(topKFrequent(nums = [1,1,2,2,2,2,2,3,3,4,4,4,4,4,4,], k = 2));
+
