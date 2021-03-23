@@ -13,4 +13,4 @@ Array.prototype.bubbleSort = function () {
 const arr = [5, 4, 3, 2, 1]
 console.log(arr.bubbleSort());
 
-// 时间复杂度 O(n)
+// 时间复杂度 O(n^2)
