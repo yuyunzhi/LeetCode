@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da3748bc-938a-4915-9f7c-b5e51f613c02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sort/insertionSort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/mergeSort.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +86,8 @@
       <workItem from="1615433932837" duration="44756000" />
       <workItem from="1615960627168" duration="4936000" />
       <workItem from="1616115154729" duration="19489000" />
-      <workItem from="1616492279564" duration="2321000" />
+      <workItem from="1616492279564" duration="2807000" />
+      <workItem from="1616727753050" duration="3408000" />
     </task>
     <servers />
   </component>
@@ -136,6 +137,12 @@
           <url>file://$PROJECT_DIR$/linkList/24两两交换链表节点.js</url>
           <line>32</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/sort/mergeSort.js</url>
+          <line>6</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
