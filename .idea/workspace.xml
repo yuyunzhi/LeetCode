@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da3748bc-938a-4915-9f7c-b5e51f613c02" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sort/quickSort.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/mergeSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sort/mergeSort.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +88,7 @@
       <workItem from="1616115154729" duration="19489000" />
       <workItem from="1616492279564" duration="2807000" />
       <workItem from="1616727753050" duration="4174000" />
-      <workItem from="1617605559355" duration="973000" />
+      <workItem from="1617605559355" duration="1770000" />
     </task>
     <servers />
   </component>
