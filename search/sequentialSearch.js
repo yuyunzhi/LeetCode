@@ -7,6 +7,7 @@ Array.prototype.sequentialSearch = function (item){
     return -1
 }
 
-
 const res = [1,2,3,4,5].sequentialSearch(3)
 console.log(res);
+
+// 顺序搜索  O(n)
