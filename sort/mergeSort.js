@@ -7,7 +7,6 @@ Array.prototype.mergeSort = function (){
 
       const orderLeft = rec(left)
       const orderRight = rec(right)
-
       const res = []
 
       while(orderLeft.length || orderRight.length) {
@@ -24,7 +23,7 @@ Array.prototype.mergeSort = function (){
       return res
   }
 
-   const res =  rec(this)
+  const res =  rec(this)
   res.forEach((i,index)=>{
       this[index] = i
     })

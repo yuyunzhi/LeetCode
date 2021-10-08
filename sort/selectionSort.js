@@ -1,5 +1,4 @@
 Array.prototype.selectionSort = function () {
-
   for (let i = 0; i < this.length - 1; i++) {
     let indexMin = i
     for (let j = i; j < this.length ; j++) {

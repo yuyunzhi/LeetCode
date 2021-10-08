@@ -1,5 +1,5 @@
+// 时间复杂度 O(n^2)
 Array.prototype.selectionSort = function () {
-
   for (let i = 1; i < this.length; i++) {
     let min = this[i]
     let j = i
@@ -18,4 +18,4 @@ Array.prototype.selectionSort = function () {
 
 const arr = [5, 4, 3, 2, 1]
 console.log(arr.selectionSort());
-// 时间复杂度 O(n^2)
+

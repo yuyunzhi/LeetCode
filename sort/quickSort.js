@@ -1,3 +1,4 @@
+//  时间复杂度 为O（logn）
 Array.prototype.quickSort = function (){
   const rec = (arr)=>{
     if(arr.length === 1) return arr
