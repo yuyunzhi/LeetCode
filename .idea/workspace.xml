@@ -21,6 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="da3748bc-938a-4915-9f7c-b5e51f613c02" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/quickSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sort/quickSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/107二叉树的层次遍历2.js" beforeDir="false" afterPath="$PROJECT_DIR$/tree/107二叉树的层次遍历2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/110平衡二叉树.js" beforeDir="false" afterPath="$PROJECT_DIR$/tree/110平衡二叉树.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +93,9 @@
       <workItem from="1616727753050" duration="4174000" />
       <workItem from="1617605559355" duration="10141000" />
       <workItem from="1618379411709" duration="4053000" />
+      <workItem from="1633492118819" duration="28484000" />
+      <workItem from="1633914197462" duration="5658000" />
+      <workItem from="1634292456455" duration="14940000" />
     </task>
     <servers />
   </component>

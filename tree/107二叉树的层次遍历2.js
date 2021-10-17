@@ -18,6 +18,5 @@ var levelOrderBottom = function(root) {
       if(n.right) q.push(n.right)
     }
   }
-
   return result.reverse()
 };

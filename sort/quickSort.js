@@ -1,4 +1,4 @@
-//  时间复杂度 为O（logn）
+//  时间复杂度 为O（nlogn）
 Array.prototype.quickSort = function (){
   const rec = (arr)=>{
     if(arr.length === 1) return arr
@@ -19,6 +19,7 @@ Array.prototype.quickSort = function (){
   }
 
   const res =  rec(this)
+
   res.forEach((i,index)=>{
     this[index] = i
   })
