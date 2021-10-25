@@ -1,3 +1,4 @@
+// f(n) = f(n-1) + f(n-2)
 // 动态规划版本
 function fib(n){
   if(n === 0) return 0
