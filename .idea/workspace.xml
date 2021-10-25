@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="da3748bc-938a-4915-9f7c-b5e51f613c02" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/104二叉树最大深度.js" beforeDir="false" afterPath="$PROJECT_DIR$/tree/104二叉树最大深度.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +93,7 @@
       <workItem from="1633914197462" duration="5658000" />
       <workItem from="1634292456455" duration="27626000" />
       <workItem from="1634612940848" duration="1101000" />
-      <workItem from="1634732555286" duration="7371000" />
+      <workItem from="1634732555286" duration="9198000" />
     </task>
     <servers />
   </component>

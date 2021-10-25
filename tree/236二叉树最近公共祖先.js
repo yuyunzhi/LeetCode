@@ -6,7 +6,7 @@ var lowestCommonAncestor = function(root, p, q) {
       count++; //找到一个
     }
     if (!broot) { //还没有找到结果，继续找
-      if (root.left) {
+      if (!broot && root.left) {
         count += dfs(root.left); //到左子树找，找到加上
       }
       if (!broot && root.right) { //broot有值，证明已经找到了，没有值才继续找
