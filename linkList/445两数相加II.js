@@ -23,6 +23,7 @@ var addTwoNumbers = function(l1, l2) {
     // 迭代
     let cur = l;
     let pre = null;
+
     while (cur) {
       let temp = cur.next;
       cur.next = pre;

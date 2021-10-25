@@ -14,3 +14,5 @@ Array.prototype.selectionSort = function () {
 const arr = [5, 4, 3, 2, 1]
 console.log(arr.selectionSort());
 // 时间复杂度 O(n^2)
+// 空间复杂度 O(1)
+// 不稳定

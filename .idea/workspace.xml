@@ -22,9 +22,15 @@
     <list default="true" id="da3748bc-938a-4915-9f7c-b5e51f613c02" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkList/445两数相加II.js" beforeDir="false" afterPath="$PROJECT_DIR$/linkList/445两数相加II.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkList/61旋转链表.js" beforeDir="false" afterPath="$PROJECT_DIR$/linkList/61旋转链表.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkList/82删除链表重复元素2.js" beforeDir="false" afterPath="$PROJECT_DIR$/linkList/82删除链表重复元素2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/bubbleSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sort/bubbleSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/insertionSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sort/insertionSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/mergeSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sort/mergeSort.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sort/quickSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sort/quickSort.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/107二叉树的层次遍历2.js" beforeDir="false" afterPath="$PROJECT_DIR$/tree/107二叉树的层次遍历2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/110平衡二叉树.js" beforeDir="false" afterPath="$PROJECT_DIR$/tree/110平衡二叉树.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/selectionSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sort/selectionSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/105前序中序构造二叉树.js" beforeDir="false" afterPath="$PROJECT_DIR$/tree/105前序中序构造二叉树.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +101,9 @@
       <workItem from="1618379411709" duration="4053000" />
       <workItem from="1633492118819" duration="28484000" />
       <workItem from="1633914197462" duration="5658000" />
-      <workItem from="1634292456455" duration="14940000" />
+      <workItem from="1634292456455" duration="27626000" />
+      <workItem from="1634612940848" duration="1101000" />
+      <workItem from="1634732555286" duration="2572000" />
     </task>
     <servers />
   </component>
@@ -145,6 +153,11 @@
           <url>file://$PROJECT_DIR$/linkList/24两两交换链表节点.js</url>
           <line>32</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/linkList/61旋转链表.js</url>
+          <line>15</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -34,3 +34,6 @@ Array.prototype.mergeSort = function (){
 
 const arr = [5, 4,3,2,1]
 console.log(arr.mergeSort(),arr);
+// 时间复杂度 O(nlogn)
+// 空间复杂度 O(n)
+// 稳定

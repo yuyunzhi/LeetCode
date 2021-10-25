@@ -62,7 +62,7 @@ var deleteDuplicates = function(head) {
   if(head == null) return null;
   var cur = head,pre = dumyNode;
 
-  while(cur != null && cur.next != null){
+  while(cur && cur.next){
     if(cur.val == cur.next.val){ //说明有重复
       //则循环移动cur 到最后一个重复结点
       while(cur.next != null && cur.val == cur.next.val){
@@ -71,7 +71,7 @@ var deleteDuplicates = function(head) {
       pre.next = cur.next;
       cur = cur.next;
     }else { //直接后移 pre 和 cur
-      pre = cur;
+      pre = pre.next;
       cur = cur.next;
     }
   }

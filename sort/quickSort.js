@@ -31,4 +31,6 @@ Array.prototype.quickSort = function (){
 const arr = [2,4,5,3,1]
 console.log(arr.quickSort());
 
-// O(logn)
+// 时间复杂度 O(nlogn)
+// 空间复杂度 O(logn)
+// 不稳定
