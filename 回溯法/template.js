@@ -16,10 +16,7 @@ const xx = (nums)=>{
 
           backtrack(path.concat(n),l,start)
       })
-
-
   }
-
   backtrack([])
 
 }

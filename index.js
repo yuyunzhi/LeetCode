@@ -3,26 +3,26 @@
  * @param {number[]} nums
  * @return {number[][]}
  */
-let subset = (nums)=>{
+let permute = (nums)=>{
   let result = []
-  const backtrack = (path,l,start)=>{
-    if(path.length === l){
+  const backtrack = (path)=>{
+    if(path.length === nums.length){
       result.push(path)
       return
     }
-    for(let i = start;i<nums.length;i++){
-      backtrack(path.concat(nums[i]),l,i+1)
-    }
+
+    nums.forEach(n=>{
+      if(path.includes(n)) return
+      backtrack(path.concat(n))
+    })
+
   }
 
-  for(let i = 0;i<nums.length+1;i++){
-    backtrack([],i,0)
-  }
-
+  backtrack([])
   return result
 }
 
 
 
 
-console.log(subset([1, 2, 3]));
+console.log(permute([1, 2, 3]));
