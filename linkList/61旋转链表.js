@@ -34,10 +34,11 @@ var rotateRight = function (head,k) {
     m--;
     fast = fast.next;
   }
-  while (fast && fast.next !== null) {
+  while (fast && fast.next) {
     slow = slow.next;
     fast = fast.next;
   }
+
   // 新的链表头节点，是第二段的第一个节点。
   let r = slow.next;
   slow.next = null; // 将第一段节点最后节点设置为null。

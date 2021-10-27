@@ -21,7 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="da3748bc-938a-4915-9f7c-b5e51f613c02" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/回溯法/template.js" beforeDir="false" afterPath="$PROJECT_DIR$/回溯法/template.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkList/142环形链表II.js" beforeDir="false" afterPath="$PROJECT_DIR$/linkList/142环形链表II.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkList/19删除链表的倒数N个结点.js" beforeDir="false" afterPath="$PROJECT_DIR$/linkList/19删除链表的倒数N个结点.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkList/24两两交换链表节点.js" beforeDir="false" afterPath="$PROJECT_DIR$/linkList/24两两交换链表节点.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkList/61旋转链表.js" beforeDir="false" afterPath="$PROJECT_DIR$/linkList/61旋转链表.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +98,7 @@
       <workItem from="1633914197462" duration="5658000" />
       <workItem from="1634292456455" duration="27626000" />
       <workItem from="1634612940848" duration="1101000" />
-      <workItem from="1634732555286" duration="17535000" />
+      <workItem from="1634732555286" duration="31439000" />
     </task>
     <servers />
   </component>
@@ -114,18 +118,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="298" y="141" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616132808814">
+    <state x="1073" y="242" width="670" height="676" key="search.everywhere.popup" timestamp="1635322927266">
       <screen x="0" y="23" width="1680" height="980" />
     </state>
-    <state x="298" y="141" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.980@0.23.1680.980" timestamp="1616132808814" />
-    <state x="665" y="130" width="1015" height="687" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1615271782530">
-      <screen x="0" y="23" width="1680" height="980" />
-    </state>
-    <state x="665" y="130" width="1015" height="687" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1680.980@0.23.1680.980" timestamp="1615271782530" />
-    <state x="692" y="246" width="670" height="676" key="search.everywhere.popup" timestamp="1615864173074">
-      <screen x="0" y="23" width="1680" height="980" />
-    </state>
-    <state x="692" y="246" width="670" height="676" key="search.everywhere.popup/0.23.1680.980@0.23.1680.980" timestamp="1615864173074" />
+    <state x="1073" y="242" width="670" height="676" key="search.everywhere.popup/0.23.1680.980@0.23.1680.980" timestamp="1635322927266" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -142,7 +138,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/linkList/24两两交换链表节点.js</url>
-          <line>32</line>
+          <line>33</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">

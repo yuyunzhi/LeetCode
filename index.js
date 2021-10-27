@@ -1,28 +1,6 @@
-/**
- * 给定一个 没有重复 数字的序列，返回其所有可能的全排列。
- * @param {number[]} nums
- * @return {number[][]}
- */
-let permute = (nums)=>{
-  let result = []
-  const backtrack = (path)=>{
-    if(path.length === nums.length){
-      result.push(path)
-      return
-    }
-
-    nums.forEach(n=>{
-      if(path.includes(n)) return
-      backtrack(path.concat(n))
-    })
-
-  }
-
-  backtrack([])
-  return result
-}
+// 新的链表头节点，是第二段的第一个节点。
+// let r = slow.next;
+// slow.next = null; // 将第一段节点最后节点设置为null。
+// fast.next = head; // 第二段最后节点指向第一段节点开始。
 
 
-
-
-console.log(permute([1, 2, 3]));

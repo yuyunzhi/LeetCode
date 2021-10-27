@@ -4,11 +4,14 @@ var oddEvenList = function(head) {
   }
   let evenHead = head.next;
   let odd = head, even = evenHead;
-  while (even !== null && even.next !== null) {
-    odd.next = even.next;
-    odd = odd.next;
-    even.next = odd.next;
-    even = even.next;
+
+  while (even  && even.next ) {
+    const temp = even.next
+    even.next = temp.next
+    odd.next =  temp
+
+    odd = odd.next
+    even = even.next
   }
   odd.next = evenHead;
   return head;
