@@ -21,11 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="da3748bc-938a-4915-9f7c-b5e51f613c02" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkList/142环形链表II.js" beforeDir="false" afterPath="$PROJECT_DIR$/linkList/142环形链表II.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkList/19删除链表的倒数N个结点.js" beforeDir="false" afterPath="$PROJECT_DIR$/linkList/19删除链表的倒数N个结点.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkList/24两两交换链表节点.js" beforeDir="false" afterPath="$PROJECT_DIR$/linkList/24两两交换链表节点.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkList/61旋转链表.js" beforeDir="false" afterPath="$PROJECT_DIR$/linkList/61旋转链表.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/402*移掉K位数字.js" beforeDir="false" afterPath="$PROJECT_DIR$/stack/402*移掉K位数字.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +94,7 @@
       <workItem from="1633914197462" duration="5658000" />
       <workItem from="1634292456455" duration="27626000" />
       <workItem from="1634612940848" duration="1101000" />
-      <workItem from="1634732555286" duration="31439000" />
+      <workItem from="1634732555286" duration="33646000" />
     </task>
     <servers />
   </component>
