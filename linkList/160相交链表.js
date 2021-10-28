@@ -30,3 +30,18 @@ var getIntersectionNode = function(headA, headB) {
   }
   return same
 };
+
+
+// 高效的方法
+
+var getIntersectionNode = function(headA, headB) {
+  let a = headA,
+      b = headB;
+  while (a != b) {
+    // a 走一步，如果走到 headA 链表末尾，转到 headB 链表
+    a = a != null ? a.next : headB;
+    // b 走一步，如果走到 headB 链表末尾，转到 headA 链表
+    b = b != null ? b.next : headA;
+  }
+  return a;
+};
