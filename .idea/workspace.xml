@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da3748bc-938a-4915-9f7c-b5e51f613c02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/string/392判断子序列.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/回溯法/22括号生成.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/4寻找两个正序数组的中位数.js" beforeDir="false" afterPath="$PROJECT_DIR$/array/4寻找两个正序数组的中位数.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +96,7 @@
       <workItem from="1633914197462" duration="5658000" />
       <workItem from="1634292456455" duration="27626000" />
       <workItem from="1634612940848" duration="1101000" />
-      <workItem from="1634732555286" duration="52462000" />
+      <workItem from="1634732555286" duration="62193000" />
     </task>
     <servers />
   </component>
