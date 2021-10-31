@@ -15,11 +15,21 @@
 
 // dp[i] = Math.max(dp[i], dp[i-1] + 1)
 
+var maxArea = function(height) {
+  let n = height.length;
 
-var maxEnvelopes = function(envelopes) {
-  let newEnvelopes = envelopes.sort((a,b)=>a[0]-b[0])
-  console.log(newEnvelopes);
+  let maxOpacity = 0;
+  for(let i = 0;i<n - 1;i++){
+    for(let j = i+1;j<n;j++){
+      const sq = (j-i)* Math.min(height[i], height[j])
+      console.log(sq);
+      maxOpacity = Math.max(maxOpacity, sq);
+    }
+  }
+
+
+  return maxOpacity;
+
 };
 
-maxEnvelopes([[5,4],[6,4],[6,7],[2,3]])
-
+console.log(maxArea([1, 8, 6, 2, 5, 4, 8, 3, 7]));
