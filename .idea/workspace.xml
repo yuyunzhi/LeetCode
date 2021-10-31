@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da3748bc-938a-4915-9f7c-b5e51f613c02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/回溯法/22括号生成.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/动态规划/1143最长公共子序列.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/动态规划/322零钱兑换.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/动态规划/516最长回文.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/动态规划/53最大子序和.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
@@ -96,7 +99,7 @@
       <workItem from="1633914197462" duration="5658000" />
       <workItem from="1634292456455" duration="27626000" />
       <workItem from="1634612940848" duration="1101000" />
-      <workItem from="1634732555286" duration="62193000" />
+      <workItem from="1634732555286" duration="67994000" />
     </task>
     <servers />
   </component>
@@ -116,6 +119,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="482" y="125" width="1198" height="780" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1635563825591">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state x="482" y="125" width="1198" height="780" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1680.980@0.23.1680.980" timestamp="1635563825591" />
     <state x="1073" y="242" width="670" height="676" key="search.everywhere.popup" timestamp="1635502668481">
       <screen x="0" y="23" width="1680" height="980" />
     </state>
